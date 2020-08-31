@@ -1,0 +1,11 @@
+<mat-toolbar style="font-size: 1.5rem; height: 80px;">
+      <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span>Agenda Live</span>
+      <mat-icon>date_range</mat-icon>
+      <span class="example-spacer"></span>
+      <button mat-raised-button (click)="addLive()"><mat-icon>add</mat-icon>Live</button>
+</mat-toolbar>
+
+<app-live-list></app-live-list>
